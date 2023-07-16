@@ -1,0 +1,102 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    /* font-style: normal; */
+    background-color: var(--primary);
+    color: var(--text);
+}
+body{
+    /* background-image: url("Images/6182-removebg-preview.png"); */
+    background-position: 100% 100%;
+    background-size: auto;
+    background-attachment: scroll;
+}
+#header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;  
+    background-color: transparent; 
+}
+#city{
+    text-decoration: underline;  
+    font-size:25px;  
+    background: none;
+}
+#status{
+    border-radius: 5px;
+    width: 17%;
+    background: none;
+}
+:root{
+    --primary:#EBFFFC;
+    --button:#CEB0F5;
+    /* --text:#00000000; */
+}
+/* .dark_theme{
+    --primary:#242424;
+    --button:#c80ebe;
+    --text:#fff;
+} */
+
+#searchbody{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+#searchbar{
+    margin: 5px;
+    border-radius: 5px;
+    background: none;
+}
+#Search{
+    margin: 5px;
+    border-radius: 5px;
+    background: none;
+}
+#Search:hover{
+    background-color: var(--button);
+}
+#results{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+#temp1{
+    background: none;
+}
+#feels_like1{
+    background: none;
+}
+#temp_max1{
+    background: none;
+}
+#temp_min1{
+    background: none;
+}
+#condition1{
+    background: none;
+}
+#temp{
+    font-weight: bolder;
+    font-size: xx-large;
+    background: none;
+}
+#feels_like{
+    background: none;
+}
+#temp_max{
+    background: none;
+}
+#temp_min{
+    background: none;
+}
+#condition{
+    background: none;
+}
+#bg{
+    background: fixed;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body >
+    <script src="script.js"></script>
+    <div id="header">
+        <p id="city">Enter the name of your desired city ! </p>
+        <img src="Images/Light-mode.png" alt="weather_type" id="status">
+        <!-- <img src="Images/6182-removebg-preview.png" alt="" id="bg"> -->
+    </div>
+    <br>
+    <div id="searchbody">
+    <input type="text" id="searchbar" placeholder="Enter City Here!">
+    <button onclick="getData()" id="Search">Search</button>
+    </div>
+    <div id="results">
+    <p id="temp1">Temperature :  <span id="temp"></span> </p>
+    <p id="feels_like1">Feels Like :  <span id="feels_like"></span> </p>
+    <p id="temp_max1">Maximum Temperature :  <span id="temp_max"></span> </p>
+    <p id="temp_min1">Mininum Temperature :  <span id="temp_min"></span> </p>
+    <p id="condition1">Weather Condition :  <span id="condition"></span> </p>
+    </div>
+</body>
+</html>
